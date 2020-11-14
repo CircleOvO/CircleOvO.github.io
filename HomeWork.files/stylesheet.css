@@ -116,9 +116,9 @@ td
 	font-family:幼圆, monospace;
 	mso-font-charset:134;
 	text-align:left;
-	border-top:.5pt solid windowtext;
+	border-top:none;
 	border-right:.5pt solid windowtext;
-	border-bottom:none;
+	border-bottom:.5pt solid windowtext;
 	border-left:none;
 	white-space:normal;}
 .xl68
@@ -128,9 +128,9 @@ td
 	font-family:幼圆, monospace;
 	mso-font-charset:134;
 	text-align:left;
-	border-top:none;
+	border-top:.5pt solid windowtext;
 	border-right:.5pt solid windowtext;
-	border-bottom:.5pt solid windowtext;
+	border-bottom:none;
 	border-left:none;
 	white-space:normal;}
 .xl69
@@ -706,16 +706,4 @@ td
 	border-left:.5pt solid windowtext;
 	background:white;
 	mso-pattern:black none;
-	white-space:normal;}
-.xl114
-	{mso-style-parent:style0;
-	color:#407434;
-	font-size:16.0pt;
-	font-family:幼圆, monospace;
-	mso-font-charset:134;
-	text-align:left;
-	border-top:none;
-	border-right:.5pt solid windowtext;
-	border-bottom:.5pt solid windowtext;
-	border-left:.5pt solid windowtext;
 	white-space:normal;}
