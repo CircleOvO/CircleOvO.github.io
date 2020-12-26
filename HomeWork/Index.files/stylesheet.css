@@ -80,14 +80,6 @@ a:visited
 	font-family:幼圆, monospace;
 	mso-font-charset:134;}
 .font12
-	{color:#407434;
-	font-size:16.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:"Times New Roman", serif;
-	mso-font-charset:0;}
-.font16
 	{color:#4472C4;
 	font-size:16.0pt;
 	font-weight:400;
@@ -95,7 +87,7 @@ a:visited
 	text-decoration:none;
 	font-family:幼圆, monospace;
 	mso-font-charset:134;}
-.font17
+.font13
 	{color:#44546A;
 	font-size:16.0pt;
 	font-weight:400;
@@ -103,6 +95,14 @@ a:visited
 	text-decoration:none;
 	font-family:幼圆, monospace;
 	mso-font-charset:134;}
+.font14
+	{color:#407434;
+	font-size:16.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Times New Roman", serif;
+	mso-font-charset:0;}
 .font18
 	{color:#A5A5A5;
 	font-size:16.0pt;
@@ -145,22 +145,6 @@ a:visited
 	mso-font-charset:134;}
 .font25
 	{color:#222B35;
-	font-size:16.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:幼圆, monospace;
-	mso-font-charset:134;}
-.font32
-	{color:#4472C4;
-	font-size:16.0pt;
-	font-weight:400;
-	font-style:normal;
-	text-decoration:none;
-	font-family:幼圆, monospace;
-	mso-font-charset:134;}
-.font33
-	{color:#44546A;
 	font-size:16.0pt;
 	font-weight:400;
 	font-style:normal;
