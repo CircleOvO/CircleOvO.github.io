@@ -18,9 +18,9 @@ window.onload=function(){
         y: 30 * canvas.height / 100
     };
     var dots = {
-        nb: 1000,//Dot的总数
-        distance: 50,
-        d_radius: 100,
+        nb: 500,//Dot的总数
+        distance: 25,
+        d_radius: 50,
         array: []
     };
     //创建颜色类，Color类返回字符串型rgba（*,*,*,.8）
