@@ -11,6 +11,7 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <link rel=File-List href="Index.files/filelist.xml">
 <title>HomeWork</title>
 <![if !supportTabStrip]>
+<link id="shLink" href="Index.files/chart001.html">
 <link id="shLink" href="Index.files/sheet001.html">
 <link id="shLink" href="Index.files/sheet002.html">
 <link id="shLink" href="Index.files/sheet003.html">
@@ -30,23 +31,24 @@ xmlns="http://www.w3.org/TR/REC-html40">
 
 <script language="JavaScript">
 <!--
- var c_lTabs=14;
+ var c_lTabs=15;
 
  var c_rgszSh=new Array(c_lTabs);
- c_rgszSh[0] = "2021.1.8";
- c_rgszSh[1] = "元旦假期";
- c_rgszSh[2] = "2020.12.26";
- c_rgszSh[3] = "2020.12.19";
- c_rgszSh[4] = "2020.12.12";
- c_rgszSh[5] = "2020.12.5";
- c_rgszSh[6] = "2020.11.28";
- c_rgszSh[7] = "2020.11.20";
- c_rgszSh[8] = "2020.11.13";
- c_rgszSh[9] = "2020.11.6";
- c_rgszSh[10] = "2020.10.30";
- c_rgszSh[11] = "2020.10.23";
- c_rgszSh[12] = "国庆假期";
- c_rgszSh[13] = "格式";
+ c_rgszSh[0] = "Chart1";
+ c_rgszSh[1] = "2021.1.8";
+ c_rgszSh[2] = "元旦假期";
+ c_rgszSh[3] = "2020.12.26";
+ c_rgszSh[4] = "2020.12.19";
+ c_rgszSh[5] = "2020.12.12";
+ c_rgszSh[6] = "2020.12.5";
+ c_rgszSh[7] = "2020.11.28";
+ c_rgszSh[8] = "2020.11.20";
+ c_rgszSh[9] = "2020.11.13";
+ c_rgszSh[10] = "2020.11.6";
+ c_rgszSh[11] = "2020.10.30";
+ c_rgszSh[12] = "2020.10.23";
+ c_rgszSh[13] = "国庆假期";
+ c_rgszSh[14] = "格式";
 
 
 
@@ -76,7 +78,7 @@ function fnGetIEVer()
 function fnBuildFrameset()
 {
  var szHTML="<frameset rows=\"*,18\" border=0 width=0 frameborder=no framespacing=0>"+
-  "<frame src=\""+document.all.item("shLink")[0].href+"\" name=\"frSheet\" noresize>"+
+  "<frame src=\""+document.all.item("shLink")[1].href+"\" name=\"frSheet\" noresize>"+
   "<frameset cols=\"54,*\" border=0 width=0 frameborder=no framespacing=0>"+
   "<frame src=\"\" name=\"frScroll\" marginwidth=0 marginheight=0 scrolling=no>"+
   "<frame src=\"\" name=\"frTabs\" marginwidth=0 marginheight=0 scrolling=no>"+
@@ -324,6 +326,10 @@ function fnSetActiveSheet(iSh)
  <x:ExcelWorkbook>
   <x:ExcelWorksheets>
    <x:ExcelWorksheet>
+    <x:Name>Chart1</x:Name>
+    <x:WorksheetSource HRef="Index.files/chart001.html"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksheet>
     <x:Name>2021.1.8</x:Name>
     <x:WorksheetSource HRef="Index.files/sheet001.html"/>
    </x:ExcelWorksheet>
@@ -385,6 +391,7 @@ function fnSetActiveSheet(iSh)
   <x:WindowWidth>28800</x:WindowWidth>
   <x:WindowTopX>32767</x:WindowTopX>
   <x:WindowTopY>32767</x:WindowTopY>
+  <x:ActiveSheet>1</x:ActiveSheet>
   <x:ProtectStructure>False</x:ProtectStructure>
   <x:ProtectWindows>False</x:ProtectWindows>
  </x:ExcelWorkbook>
