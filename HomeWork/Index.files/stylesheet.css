@@ -159,6 +159,30 @@ a:visited
 	text-decoration:none;
 	font-family:幼圆, monospace;
 	mso-font-charset:134;}
+.font37
+	{color:#44546A;
+	font-size:16.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:幼圆, monospace;
+	mso-font-charset:134;}
+.font38
+	{color:#4472C4;
+	font-size:16.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:幼圆, monospace;
+	mso-font-charset:134;}
+.font39
+	{color:#0D0D0D;
+	font-size:16.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:幼圆, monospace;
+	mso-font-charset:134;}
 td
 	{mso-style-parent:style0;
 	padding-top:1px;
@@ -1414,4 +1438,28 @@ td
 	border-left:.5pt solid windowtext;
 	background:white;
 	mso-pattern:black none;
+	white-space:normal;}
+.xl165
+	{mso-style-parent:style0;
+	color:#407434;
+	font-size:16.0pt;
+	font-family:幼圆, monospace;
+	mso-font-charset:134;
+	text-align:left;
+	border-top:none;
+	border-right:1.0pt solid #44546A;
+	border-bottom:none;
+	border-left:.5pt solid windowtext;
+	white-space:normal;}
+.xl166
+	{mso-style-parent:style62;
+	color:#0563C1;
+	text-decoration:underline;
+	text-underline-style:single;
+	mso-number-format:"Short Time";
+	text-align:left;
+	border-top:none;
+	border-right:1.0pt solid #44546A;
+	border-bottom:.5pt solid windowtext;
+	border-left:.5pt solid windowtext;
 	white-space:normal;}
